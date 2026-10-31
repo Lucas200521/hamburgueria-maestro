@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atelier Lume Nails | Manicure e pedicure em João Pessoa</title>
+<meta name="description" content="Manicure, pedicure, gel e nail art com materiais esterilizados. Agende seu horário online em poucos passos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BeautySalon","name":"Atelier Lume Nails","address":{"@type":"PostalAddress","streetAddress":"Av. Epitácio Pessoa, 1250","addressLocality":"João Pessoa","addressRegion":"PB"},"telephone":"+558332210000","openingHours":["Tu-Fr 09:00-18:00","Sa 09:00-15:00"]}</script>
+<style>
+:root{--bg:#fbf7f3;--card:#fff;--nude:#ecdcd0;--rose:#b9746f;--rose-d:#9a5a56;--ink:#3a2a27;--mut:#7a6660;--gold:#a8864f;--line:#e6d6ca;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1715;--card:#2a201d;--nude:#3a2b27;--rose:#d79a94;--rose-d:#e6b3ad;--ink:#f4e9e2;--mut:#bfa9a0;--gold:#cfab72;--line:#4a3833;color-scheme:dark}}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Manrope,system-ui,sans-serif}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.1;margin:0 0 .5em}
+h1{font-size:clamp(2.6rem,7vw,4.8rem)}h2{font-size:clamp(1.9rem,4vw,2.8rem)}h3{font-size:1.4rem}
+a{color:inherit}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}section{padding:64px 0}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;height:64px}
+.logo{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;text-decoration:none}.logo span{color:var(--gold)}
+nav a{margin-right:18px;text-decoration:none;color:var(--mut);font-size:.95rem}nav a:hover,nav a.on{color:var(--ink)}
+.btn{display:inline-block;border:1px solid var(--rose);background:var(--rose);color:#fff;padding:12px 22px;border-radius:999px;font:700 .95rem Manrope,sans-serif;cursor:pointer;text-decoration:none}
+.btn:hover{background:var(--rose-d)}.btn.o{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.sm{padding:8px 16px}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{display:grid;gap:36px;align-items:center;padding:56px 0}
+@media(min-width:800px){.hero{grid-template-columns:1.1fr .9fr}}
+.hero p{max-width:46ch;color:var(--mut);font-size:1.1rem}.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.swatches{background:var(--nude);border-radius:200px 200px 24px 24px;padding:48px 28px 28px;text-align:center;transition:background .4s}
+.swatches .big{font-family:'Cormorant Garamond',serif;font-size:1.6rem;margin-bottom:18px;min-height:2.2em}
+.dots{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.dot{width:44px;height:64px;border-radius:22px 22px 8px 8px;border:3px solid var(--card);cursor:pointer;box-shadow:0 0 0 1px var(--line)}
+.dot[aria-pressed=true]{transform:translateY(-8px);box-shadow:0 0 0 2px var(--gold)}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.ben{border-left:2px solid var(--gold);padding-left:14px}.ben b{display:block}.ben span{color:var(--mut);font-size:.92rem}
+.price{color:var(--gold);font-weight:700}.mut{color:var(--mut);font-size:.92rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 16px;border-radius:999px;cursor:pointer;font:500 .9rem Manrope}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.svc{display:flex;flex-direction:column;gap:8px}.svc .top{display:flex;justify-content:space-between;gap:8px}.svc button{margin-top:auto}
+.quote{font-family:'Cormorant Garamond',serif;font-size:1.25rem}
+details{border-bottom:1px solid var(--line);padding:14px 0}summary{cursor:pointer;font-weight:700}details p{color:var(--mut);margin:8px 0 0}
+.alt{background:var(--nude)}.alt .card{background:var(--bg)}
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0 24px}.bar i{display:block;height:100%;background:var(--gold);transition:width .3s}
+.steps{display:flex;gap:6px;font-size:.8rem;color:var(--mut);flex-wrap:wrap}.steps b{color:var(--ink)}
+.opt{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px;cursor:pointer;color:var(--ink);font:inherit}
+.opt[aria-pressed=true]{border-color:var(--rose);box-shadow:0 0 0 2px var(--rose)}
+.days,.slots{display:flex;gap:8px;flex-wrap:wrap}.days .chip{text-align:center;line-height:1.3}.chip:disabled{opacity:.35;cursor:not-allowed;text-decoration:line-through}
+label{display:block;font-weight:700;font-size:.9rem;margin:12px 0 4px}
+input,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.err{color:#b3392f;font-size:.85rem;min-height:1.1em}
+.sum{position:sticky;bottom:8px;display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--ink);color:var(--bg);border-radius:14px;padding:12px 16px;margin-top:18px}
+.layout{max-width:680px;margin:0 auto}
+table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{padding:10px 6px;border-bottom:1px solid var(--line);text-align:left}
+.tw{overflow-x:auto}select{padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.kpi{font-family:'Cormorant Garamond',serif;font-size:2.2rem}
+footer{background:var(--ink);color:var(--bg);padding:40px 0 90px;font-size:.9rem}footer a{margin-right:14px}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:54px;height:54px;border-radius:50%;background:#25a05a;color:#fff;display:grid;place-items:center;font-weight:700;text-decoration:none;z-index:25;box-shadow:0 4px 14px #0003}
+.ok{text-align:center;padding:30px 10px}.ok .ck{width:64px;height:64px;border-radius:50%;background:var(--gold);color:#fff;display:grid;place-items:center;margin:0 auto 16px;font-size:2rem}
+@media(max-width:640px){nav{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#home">Atelier <span>Lume</span></a>
+<nav aria-label="Principal"><a href="#home">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a><a href="#admin">Painel</a></nav>
+<a class="btn sm" href="#agendar">Agendar horário</a></div></header>
+<main id="app" tabindex="-1"></main>
+<footer><div class="wrap"><b>Atelier Lume Nails</b> · Av. Epitácio Pessoa, 1250, João Pessoa, PB<br>Ter a sex 9h às 18h · Sáb 9h às 15h<p><a href="#home">Política de privacidade</a><a href="#home">Termos</a><a href="#home">Instagram</a><a href="#home">Cancelamento: até 6h antes</a></p></div></footer>
+<a class="wa" href="https://wa.me/5583999990000?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." aria-label="Falar no WhatsApp">WA</a>
+<script>
+const SV=[
+["Manicure clássica","manicure","Cutilagem, hidratação e esmaltação tradicional.",45,45],
+["Manicure spa","manicure","Esfoliação, máscara e massagem com óleo de amêndoas.",70,75],
+["Pedicure clássica","pedicure","Cuidado completo dos pés com esmaltação.",55,60],
+["Pedicure spa","pedicure","Esfoliação, parafina e massagem relaxante.",90,90],
+["Esmaltação em gel","gel","Brilho e durabilidade por até 20 dias.",90,60],
+["Blindagem","gel","Camada protetora que fortalece unhas frágeis.",100,75],
+["Alongamento em fibra","alongamento","Formato e comprimento sob medida.",220,150],
+["Alongamento em gel moldado","alongamento","Acabamento natural e leve.",240,165],
+["Nail art (por unha)","nailart","Desenhos, pedrarias e efeitos exclusivos.",12,10],
+["Manutenção de alongamento","manutencao","Reposição e correção a cada 20 dias.",140,100],
+["Remoção de gel ou fibra","remocao","Remoção segura, sem agredir a unha.",50,40],
+["Spa dos pés e mãos","pedicure","Combo de pedicure e manicure spa.",150,150]].map((s,i)=>({id:i,n:s[0],c:s[1],d:s[2],p:s[3],m:s[4]}));
+const CAT={all:"Todos",manicure:"Manicure",pedicure:"Pedicure",gel:"Gel",alongamento:"Alongamento",nailart:"Nail art",manutencao:"Manutenção",remocao:"Remoção"};
+const PR=[{id:0,n:"Helena Duarte",r:"Especialista em alongamento"},{id:1,n:"Camila Rocha",r:"Nail art e gel"},{id:2,n:"Beatriz Lima",r:"Manicure e pedicure spa"}];
+const HOL=["2026-11-02","2026-11-20","2026-12-25","2027-01-01"];
+const R=v=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const hm=m=>String(Math.floor(m/60)).padStart(2,"0")+":"+String(m%60).padStart(2,"0");
+const mins=t=>+t.slice(0,2)*60+ +t.slice(3);
+const WD=["dom","seg","ter","qua","qui","sex","sáb"];
+let B=[],S={sel:[],pro:null,date:null,time:null,step:0,filter:"all",admin:false,done:null};
+(function seed(){let t=new Date();for(let i=1;i<=6;i++){let d=new Date(t);d.setDate(t.getDate()+i);if(!closed(d)){B.push({id:i,name:["Marina Souza","Larissa Alves","Paula Menezes","Renata Costa"][i%4],date:iso(d),time:["09:00","10:30","14:00","15:30"][i%4],pro:i%3,svc:[i%4,4],dur:105,total:145,status:i<3?"confirmado":"pendente"})}}})();
+function closed(d){return d.getDay()===0||d.getDay()===1||HOL.includes(iso(d))}
+function slots(date,pro,dur){const d=new Date(date+"T12:00:00");if(closed(d))return[];const end=d.getDay()===6?900:1080,out=[];
+for(let s=540;s+dur<=end;s+=30){if(s<810&&s+dur>750)continue;if(date===iso(new Date())&&s<=new Date().getHours()*60+new Date().getMinutes())continue;
+const busy=B.some(b=>b.pro===pro&&b.date===date&&b.status!=="cancelado"&&mins(b.time)<s+dur&&s<mins(b.time)+b.dur);if(!busy)out.push(hm(s))}return out}
+const tot=()=>S.sel.reduce((a,i)=>({p:a.p+SV[i].p,m:a.m+SV[i].m}),{p:0,m:0});
+const $=s=>document.querySelector(s),app=$("#app");
+function route(){const h=location.hash.slice(1)||"home";document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+h));
+({home,servicos,agendar,sobre,contato,admin}[h]||home)();window.scrollTo(0,0)}
+function svcCard(s){return `<article class="card svc"><div class="top"><h3>${s.n}</h3><span class="price">${s.id===8?"R$ 12":"a partir de "+R(s.p)}</span></div><p class="mut">${s.d}</p><span class="mut">Duração: ${s.m} min</span><button class="btn o sm" data-book="${s.id}">Agendar este serviço</button></article>`}
+function bindBook(){document.querySelectorAll("[data-book]").forEach(b=>b.onclick=()=>{const i=+b.dataset.book;if(!S.sel.includes(i))S.sel.push(i);S.step=S.sel.length?1:0;location.hash="agendar"})}
+function home(){const cols=[["#e8b4b8","Rosé antigo"],["#d9a88f","Nude areia"],["#c97b84","Framboesa"],["#f1e3d6","Leite"],["#b08d57","Dourado"],["#8c5a5a","Cacau"]];
+app.innerHTML=`<div class="wrap"><div class="hero"><div><h1>Mãos e pés cuidados com calma e precisão.</h1><p>Esterilização completa, hora marcada respeitada e acabamento pensado para o seu jeito. Escolha serviço, profissional e horário em menos de um minuto.</p><div class="row"><a class="btn" href="#agendar">Agendar agora</a><a class="btn o" href="#servicos">Conhecer serviços</a></div></div>
+<div class="swatches" id="sw"><div class="big" id="swn">Toque em um esmalte para ver a cor do seu próximo mês.</div><div class="dots">${cols.map((c,i)=>`<button class="dot" style="background:${c[0]}" data-i="${i}" aria-pressed="false" aria-label="${c[1]}"></button>`).join("")}</div></div></div></div>
+<section class="alt"><div class="wrap grid">${[["Profissionais qualificadas","Equipe com certificação e atualização constante."],["Materiais esterilizados","Autoclave e alicates em embalagem lacrada por cliente."],["Pontualidade","Seu horário começa na hora combinada."],["Atendimento personalizado","Formato, cor e cuidado escolhidos com você."]].map(b=>`<div class="ben"><b>${b[0]}</b><span>${b[1]}</span></div>`).join("")}</div></section>
+<section><div class="wrap"><h2>Serviços mais procurados</h2><div class="grid">${[4,2,6,1].map(i=>svcCard(SV[i])).join("")}</div><p><a class="btn o" href="#servicos">Ver todos os serviços</a></p></div></section>
+<section class="alt"><div class="wrap"><h2>Trabalhos recentes</h2><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))">${["#e8b4b8","#d9a88f","#f1e3d6","#c97b84","#b08d57","#8c5a5a","#e3c9b8","#d4a0a0"].map((c,i)=>`<div role="img" aria-label="Trabalho ${i+1}: unhas em tom ${c}" style="aspect-ratio:1;border-radius:${i%2?"60px 60px 12px 12px":"12px 12px 60px 60px"};background:linear-gradient(160deg,${c},${c}bb)"></div>`).join("")}</div></div></section>
+<section><div class="wrap"><h2>O que dizem nossas clientes</h2><div class="grid">${[["Saí de lá com as unhas perfeitas e durou três semanas.","Marina S."],["Ambiente impecável e horário respeitado. Virei cliente fiel.","Larissa A."],["A Camila entendeu exatamente a nail art que eu queria.","Paula M."]].map(q=>`<div class="card"><p class="quote">“${q[0]}”</p><span class="mut">${q[1]} · 5 estrelas</span></div>`).join("")}</div></div></section>
+<section class="alt"><div class="wrap" style="max-width:720px"><h2>Perguntas frequentes</h2>${[["Posso remarcar?","Sim, até 6 horas antes, sem custo."],["Como funciona a esterilização?","Instrumentos passam por autoclave e são abertos na sua frente."],["Quais formas de pagamento?","Pix, cartão e dinheiro. Pagamento online em breve."],["Quanto tempo dura o gel?","Em média 15 a 20 dias."]].map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}</div></section>`;
+bindBook();document.querySelectorAll(".dot").forEach(d=>d.onclick=()=>{document.querySelectorAll(".dot").forEach(x=>x.setAttribute("aria-pressed",x===d));$("#sw").style.background=cols[d.dataset.i][0]+"66";$("#swn").textContent=cols[d.dataset.i][1]})}
+function servicos(){const l=SV.filter(s=>S.filter==="all"||s.c===S.filter);
+app.innerHTML=`<div class="wrap" style="padding-top:40px"><h1 style="font-size:3rem">Serviços</h1><div class="chips" role="group" aria-label="Filtrar">${Object.entries(CAT).map(([k,v])=>`<button class="chip" data-f="${k}" aria-pressed="${S.filter===k}">${v}</button>`).join("")}</div><div class="grid">${l.map(svcCard).join("")}</div></div>`;
+bindBook();document.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{S.filter=b.dataset.f;servicos()})}
+function agendar(){const T=tot(),L=["Serviços","Profissional","Data e hora","Seus dados","Confirmar"];
+if(S.done){app.innerHTML=`<div class="wrap layout"><div class="card ok"><div class="ck">✓</div><h2>Horário confirmado</h2><p>${S.done.name}, esperamos você em ${S.done.date.split("-").reverse().join("/")} às ${S.done.time}.</p><div class="row" style="justify-content:center"><a class="btn" target="_blank" rel="noopener" href="${S.done.wa}">Enviar confirmação no WhatsApp</a><a class="btn o" target="_blank" rel="noopener" href="${S.done.cal}">Adicionar ao calendário</a></div><p class="mut">Enviamos também um e-mail de confirmação. Para remarcar ou cancelar, use o link do e-mail ou fale conosco até 6 horas antes.</p><button class="btn o sm" id="nw">Fazer novo agendamento</button></div></div>`;$("#nw").onclick=()=>{S={...S,sel:[],pro:null,date:null,time:null,step:0,done:null};agendar()};return}
+let body="",ok=false;
+if(S.step===0){ok=S.sel.length>0;body=`<h2>Escolha os serviços</h2><p class="mut">Você pode selecionar mais de um.</p>`+SV.map(s=>`<button class="opt" data-s="${s.id}" aria-pressed="${S.sel.includes(s.id)}"><span><b>${s.n}</b><br><span class="mut">${s.m} min</span></span><span class="price">${R(s.p)}</span></button>`).join("")}
+if(S.step===1){ok=S.pro!==null;body=`<h2>Quem vai atender você?</h2>`+PR.map(p=>`<button class="opt" data-p="${p.id}" aria-pressed="${S.pro===p.id}"><span><b>${p.n}</b><br><span class="mut">${p.r}</span></span></button>`).join("")}
+if(S.step===2){const ds=[];let d=new Date();for(let i=0;i<14;i++){ds.push(new Date(d));d.setDate(d.getDate()+1)}
+const sl=S.date?slots(S.date,S.pro,T.m):[];ok=!!S.time;
+body=`<h2>Escolha data e horário</h2><p class="mut">Duração total: ${T.m} min. Só aparecem horários livres.</p><div class="days">${ds.map(x=>{const v=iso(x),dis=closed(x)||!slots(v,S.pro,T.m).length;return `<button class="chip" data-d="${v}" ${dis?"disabled":""} aria-pressed="${S.date===v}">${WD[x.getDay()]}<br>${x.getDate()}/${x.getMonth()+1}</button>`}).join("")}</div><h3 style="margin-top:22px">Horários</h3><div class="slots">${S.date?(sl.map(t=>`<button class="chip" data-t="${t}" aria-pressed="${S.time===t}">${t}</button>`).join("")||"<span class='mut'>Sem horários neste dia.</span>"):"<span class='mut'>Selecione um dia.</span>"}</div>`}
+if(S.step===3){ok=true;body=`<h2>Seus dados</h2><label for="nm">Nome completo</label><input id="nm" autocomplete="name"><div class="err" id="e1"></div><label for="tl">WhatsApp</label><input id="tl" inputmode="tel" placeholder="(83) 99999-0000" autocomplete="tel"><div class="err" id="e2"></div><label for="em">E-mail</label><input id="em" type="email" autocomplete="email"><div class="err" id="e3"></div><label for="ob">Observações (opcional)</label><textarea id="ob" rows="2"></textarea><label style="font-weight:400"><input type="checkbox" id="lg" style="width:auto"> Concordo com o uso dos meus dados para o agendamento, conforme a LGPD.</label><div class="err" id="e4"></div>`}
+if(S.step===4){ok=true;const p=PR[S.pro];body=`<h2>Confirme seu agendamento</h2><div class="card"><p><b>Serviços:</b> ${S.sel.map(i=>SV[i].n).join(", ")}</p><p><b>Profissional:</b> ${p.n}</p><p><b>Quando:</b> ${S.date.split("-").reverse().join("/")} às ${S.time} (${T.m} min)</p><p><b>Cliente:</b> ${S.data.name} · ${S.data.tel}</p><p class="kpi">${R(T.p)}</p><p class="mut">Cancelamento gratuito até 6 horas antes. Pagamento no salão.</p></div><div class="err" id="e5"></div>`}
+app.innerHTML=`<div class="wrap layout" style="padding-top:32px"><div class="steps">${L.map((l,i)=>i===S.step?`<b>${i+1}. ${l}</b>`:`<span>${i+1}. ${l}</span>`).join(" · ")}</div><div class="bar"><i style="width:${(S.step+1)*20}%"></i></div>${body}<div class="sum"><span>${S.sel.length?`${R(T.p)} · ${T.m} min`:"Nenhum serviço"}</span><span>${S.step>0?'<button class="btn o sm" id="bk" style="color:var(--bg);border-color:var(--bg)">Voltar</button> ':""}<button class="btn sm" id="nx" ${ok?"":"disabled"}>${S.step===4?"Confirmar agendamento":"Continuar"}</button></span></div></div>`;
+document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{const i=+b.dataset.s;S.sel=S.sel.includes(i)?S.sel.filter(x=>x!==i):[...S.sel,i];S.date=S.time=null;agendar()});
+document.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{S.pro=+b.dataset.p;S.date=S.time=null;agendar()});
+document.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>{S.date=b.dataset.d;S.time=null;agendar()});
+document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{S.time=b.dataset.t;agendar()});
+if(S.step===3){$("#tl").oninput=e=>{let v=e.target.value.replace(/\D/g,"").slice(0,11);e.target.value=v.length>6?`(${v.slice(0,2)}) ${v.slice(2,7)}-${v.slice(7)}`:v.length>2?`(${v.slice(0,2)}) ${v.slice(2)}`:v}}
+if($("#bk"))$("#bk").onclick=()=>{S.step--;agendar()};
+$("#nx").onclick=()=>{if(S.step===3){const n=$("#nm").value.trim(),t=$("#tl").value,e=$("#em").value.trim();let bad=0;
+$("#e1").textContent=n.split(" ").length<2?(bad=1,"Informe nome e sobrenome."):"";$("#e2").textContent=t.replace(/\D/g,"").length<11?(bad=1,"Digite o WhatsApp com DDD."):"";$("#e3").textContent=!/^\S+@\S+\.\S+$/.test(e)?(bad=1,"Digite um e-mail válido."):"";$("#e4").textContent=!$("#lg").checked?(bad=1,"É necessário aceitar para continuar."):"";if(bad)return;S.data={name:n,tel:t,email:e,obs:$("#ob").value}}
+if(S.step===4){if(!slots(S.date,S.pro,T.m).includes(S.time)){$("#e5").textContent="Esse horário acabou de ser ocupado. Volte e escolha outro.";return}
+B.push({id:B.length+10,name:S.data.name,date:S.date,time:S.time,pro:S.pro,svc:[...S.sel],dur:T.m,total:T.p,status:"pendente"});
+const msg=`Olá! Agendamento confirmado: ${S.sel.map(i=>SV[i].n).join(", ")} em ${S.date.split("-").reverse().join("/")} às ${S.time}.`,st=S.date.replace(/-/g,"")+"T"+S.time.replace(":","")+"00",en=S.date.replace(/-/g,"")+"T"+hm(mins(S.time)+T.m).replace(":","")+"00";
+S.done={...S.data,date:S.date,time:S.time,wa:"https://wa.me/55"+S.data.tel.replace(/\D/g,"")+"?text="+encodeURIComponent(msg),cal:"https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent("Atelier Lume Nails")+"&dates="+st+"/"+en};agendar();return}
+S.step++;agendar()}}
+function sobre(){app.innerHTML=`<div class="wrap" style="max-width:720px;padding:48px 20px"><h1 style="font-size:3rem">Sobre o Atelier Lume</h1><p>Nascemos em 2019 com uma ideia simples: tratar unhas como cuidado, não como pressa. Cada atendimento é individual, com materiais esterilizados e tempo suficiente para um bom resultado.</p><h3>Valores</h3><p class="mut">Higiene, pontualidade, honestidade nos preços e respeito ao estilo de cada cliente.</p><h3>Equipe</h3>${PR.map(p=>`<p><b>${p.n}</b> · ${p.r}</p>`).join("")}<h3>Certificações</h3><p class="mut">Biossegurança em Manicure e Pedicure, Técnico em Alongamento em Fibra, Nail Art Avançada.</p></div>`}
+function contato(){app.innerHTML=`<div class="wrap" style="padding:48px 20px"><h1 style="font-size:3rem">Contato</h1><div class="grid"><div class="card"><p><b>Endereço</b><br>Av. Epitácio Pessoa, 1250, João Pessoa, PB</p><p><b>Horário</b><br>Ter a sex 9h às 18h<br>Sáb 9h às 15h</p><p><b>Telefone</b><br>(83) 3221-0000</p><a class="btn" href="https://wa.me/5583999990000">Chamar no WhatsApp</a></div><div class="card"><label for="cn">Nome</label><input id="cn"><label for="cm">Mensagem</label><textarea id="cm" rows="4"></textarea><p class="err" id="cf"></p><button class="btn" id="cs">Enviar mensagem</button></div></div></div>`;
+$("#cs").onclick=()=>{$("#cf").style.color=!$("#cn").value.trim()||!$("#cm").value.trim()?"#b3392f":"inherit";$("#cf").textContent=!$("#cn").value.trim()||!$("#cm").value.trim()?"Preencha nome e mensagem.":"Mensagem enviada. Respondemos em até 1 dia útil."}}
+function admin(){if(!S.admin){app.innerHTML=`<div class="wrap layout" style="padding:48px 20px;max-width:380px"><h2>Painel do salão</h2><p class="mut">Acesso restrito. Demonstração: use o PIN 1234.</p><label for="pin">PIN</label><input id="pin" type="password" inputmode="numeric"><p class="err" id="pe"></p><button class="btn" id="lg">Entrar</button></div>`;$("#lg").onclick=()=>{if($("#pin").value==="1234"){S.admin=true;admin()}else $("#pe").textContent="PIN incorreto."};return}
+const td=iso(new Date()),act=B.filter(b=>b.status!=="cancelado"),fat=B.filter(b=>["confirmado","concluído"].includes(b.status)).reduce((a,b)=>a+b.total,0),cnt={};act.forEach(b=>b.svc.forEach(i=>cnt[i]=(cnt[i]||0)+1));const top=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0];
+const ST=["pendente","confirmado","em atendimento","concluído","cancelado","não compareceu"];
+app.innerHTML=`<div class="wrap" style="padding:40px 20px"><h1 style="font-size:2.6rem">Painel</h1><div class="grid"><div class="card"><span class="mut">Agendamentos ativos</span><div class="kpi">${act.length}</div></div><div class="card"><span class="mut">Cancelados</span><div class="kpi">${B.length-act.length}</div></div><div class="card"><span class="mut">Faturamento previsto</span><div class="kpi">${R(fat)}</div></div><div class="card"><span class="mut">Mais pedido</span><div class="kpi" style="font-size:1.4rem">${top?SV[top[0]].n:"—"}</div></div></div><h2 style="margin-top:32px">Agenda</h2><div class="tw"><table><tr><th>Data</th><th>Hora</th><th>Cliente</th><th>Profissional</th><th>Status</th></tr>${[...B].sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time)).map(b=>`<tr><td>${b.date.split("-").reverse().join("/")}</td><td>${b.time}</td><td>${b.name}</td><td>${PR[b.pro].n}</td><td><select data-b="${b.id}" aria-label="Status de ${b.name}">${ST.map(s=>`<option ${s===b.status?"selected":""}>${s}</option>`).join("")}</select></td></tr>`).join("")}</table></div><p class="mut">Cancelar libera o horário automaticamente na agenda online.</p></div>`;
+document.querySelectorAll("[data-b]").forEach(s=>s.onchange=()=>{B.find(b=>b.id==s.dataset.b).status=s.value;admin()})}
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
